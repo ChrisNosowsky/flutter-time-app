@@ -18,17 +18,18 @@ class _HomeState extends State<Home> {
     // set background
     String bgImage;
     Color bgColor;
+    Color editColor;
     if (data['timeOfDay'] == "SUNRISE1") {
       bgImage = "sunrise1.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.indigo[900];
     }
     else if (data['timeOfDay'] == "SUNRISE2") {
       bgImage = "sunrise2.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.indigo[900];
     }
     else if (data['timeOfDay'] == "SUNRISE3") {
       bgImage = "sunrise3.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.blue;
     }
     else if(data['timeOfDay'] == "MIDDLE1") {
       bgImage = "day1.png";
@@ -44,15 +45,15 @@ class _HomeState extends State<Home> {
     }
     else if(data['timeOfDay'] == "SUNSET1") {
       bgImage = "sunset1.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.blue[500];
     }
     else if(data['timeOfDay'] == "SUNSET2") {
       bgImage = "sunset2.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.purple[500];
     }
     else if(data['timeOfDay'] == "SUNSET3") {
       bgImage = "sunset3.png";
-      bgColor = Colors.amber[900];
+      bgColor = Colors.purple[500];
     }
     else if(data['timeOfDay'] == "NIGHT1") {
       bgImage = "night1.png";
@@ -95,12 +96,12 @@ class _HomeState extends State<Home> {
                 },
                   icon: Icon(
                     Icons.edit_location,
-                    color: Colors.grey[600],
+                    color: Colors.grey[400],
                   ),
                   label: Text(
                     'Edit Location',
                     style: TextStyle(
-                      color: Colors.grey[600],
+                      color: Colors.grey[400],
                     ),
                   ),
                 ),
