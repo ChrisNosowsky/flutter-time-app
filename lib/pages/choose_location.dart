@@ -10,7 +10,8 @@ class _ChooseLocationState extends State<ChooseLocation> {
 
   List<WorldTime> locations = [
     WorldTime(url: 'Europe/London', location: 'London', flag: 'uk.png'),
-    WorldTime(url: 'Europe/Berlin', location: 'Athens', flag: 'greece.png'),
+    WorldTime(url: 'Europe/Athens', location: 'Athens', flag: 'greece.png'),
+    WorldTime(url: 'Europe/Berlin', location: 'Berlin', flag: 'germany.png'),
     WorldTime(url: 'Africa/Cairo', location: 'Cairo', flag: 'egypt.png'),
     WorldTime(url: 'Africa/Nairobi', location: 'Nairobi', flag: 'kenya.png'),
     WorldTime(url: 'America/Los_Angeles', location: 'Los Angeles', flag: 'usa.png'),

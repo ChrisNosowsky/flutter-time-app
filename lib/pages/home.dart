@@ -18,7 +18,6 @@ class _HomeState extends State<Home> {
     // set background
     String bgImage;
     Color bgColor;
-    Color editColor;
     if (data['timeOfDay'] == "SUNRISE1") {
       bgImage = "sunrise1.png";
       bgColor = Colors.indigo[900];
