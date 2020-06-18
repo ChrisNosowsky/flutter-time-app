@@ -122,7 +122,7 @@ class _HomeState extends State<Home> {
                 Text(
                   data['time'],
                   style: TextStyle(
-                    fontSize: 66.0,
+                    fontSize: 55.0,
                     color: Colors.white
                   ),
                 )
