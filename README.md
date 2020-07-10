@@ -1,6 +1,6 @@
 # World Time App
 
-A simple world time app I created to learn Flutter and the Dart programming lanaguage created by Google.
+A simple world time app I created to learn Flutter and the Dart programming language created by Google.
 
 App uses class structuring, widget trees, promises and asynchronous functions to await the arrival of a world time API endpoint.
 
